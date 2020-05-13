@@ -1,0 +1,264 @@
+header
+{
+    background-color:#6C809A;
+	width: 100%;
+
+}
+div.cleaner
+{
+    clear: both;
+}
+div.centerarea
+{
+    width:75%;
+    float:left;
+    
+}
+div.about
+{
+    position: relative;
+}
+div.aside
+{
+    background-color:#75BBA7;
+    width:25%;
+    float:right;
+    position: sticky;
+    top: 0;
+    right:0;
+    
+}
+div.person_img
+{ 
+    padding-top:10px;  
+    width:90%;
+    margin: auto;
+}
+div.banner
+{
+    height: 410px;
+}
+.person_info
+{
+    font-family:"微軟正黑體";
+    font-size:20px;
+}
+div.person_social_icon
+{
+    width: 20%;
+    height: 20%;
+    float: left;
+    margin: 10px;
+}
+div.art_title
+{
+    font-family:"微軟正黑體";
+    font-size:20px;
+}
+div.aki_img
+{
+    width:100%
+    
+}
+div.row
+{
+    
+}
+div.article_title
+{
+    font-size: 36px;
+    font-family: "微軟正黑體";
+    text-align: center;
+    padding: 15px;
+    
+}
+div.bk_1
+{
+    background-color: #D55672;
+    
+    
+}
+div.bk_2
+{
+    background-color: #ADF5FF;
+    
+    
+}
+div.cir_tltle
+{ 
+    text-align: center;
+    padding: 10px;
+    font-size: 32px;
+    font-family: "微軟正黑體";
+}
+div.cir_block
+{ 
+    width: 300px;
+    float: left;
+    padding: 10px;
+}
+div.vol_img
+{
+    width: 100%;
+}
+div.lo_img
+{
+    width: 100%;
+    float: right;
+}
+div.learn_text
+{
+    float:left;
+    font-family:"微軟正黑體";
+    padding: 45px;
+}
+div.p_img
+{
+    width: 22%;
+    float:left;
+}
+div.p4_img
+{
+    width: 22%;
+    float:left;
+}
+div.p2_img
+{
+    width:22%;
+    float:left;
+    
+}
+div.p3_img
+{
+    width:22%;
+    float:left;
+}
+div.learn_text
+{
+    font-family: "微軟正黑體";
+    font-size:16.px; 
+}
+div.trigap
+{
+    width: 33.33%;
+    float: left;
+    
+}
+div.bk_3
+{
+    background-color: #FFEF9F;
+    
+}
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; 
+}
+
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;/
+  backface-visibility: hidden;
+}
+
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+
+.flip-card-back {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+}
+div.imgrow
+{
+    margin: auto;
+    width: 1160px;
+    clear: both;
+}
+div.imgbox
+{
+    width: 250px;
+    height: 187px;
+    float: left;
+    padding: 20px;
+    position: relative;
+}
+div.img_inner
+{
+    position: absolute;
+    text-align: center;
+    background-color: #909FA5;
+    top: 20px;
+    left: 20px;
+    width: 250px;
+    height: 187px;
+    visibility: hidden;
+}
+div.imgbox:hover div.img_inner
+{
+    position: absolute;
+    background-color: RGBA(144,159,165,0.7);
+    top: 20px;
+    left: 20px;
+    width: 250px;
+    height: 187px;
+    visibility: visible;
+}
+div.bk_4
+{
+    background-color: #7BF1A8;
+    
+    
+}
+body
+{
+margin:0px;
+padding:0%;
+
+}
+li.nav_item
+{
+    font-size:24px;
+    font-family:"微軟正黑體";
+    text-align: center;
+    color:white;
+    width:25%;
+    list-style-type: none;
+    float: left;
+}
+div.copy
+{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 15px;
+    font-family: "微軟正黑體";
+}
+nav
+{
+    padding: 35px;
+}
